@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+   <!-- box icon -->
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body class="bg-background">
+  <!-- -------header -->
+  <header class="fixed top-0 right-0 left-0 md:py-1 transition-all duration-300">
+    <nav class="max-w-7xl max-aut bg-gray-800 md:bg-transparent p-5">
+      <div class="flex items-center justify-between">
+        <a href="/" class="text-white font-bold text-lg flex items-center gap-3"><img src="../phots/Logo.svg">portfolio</a>
+        <!-- -----nav only for large device-width -->
+        <div class="hidden md:flex space-x-10">
+          <a href="#home" class="text-primary hover:text-gray-300">Home</a>
+          <a href="#projects"  class="text-white hover:text-gray-300">Projects</a>
+          <a href="#resume"  class="text-white hover:text-gray-300">Resume</a>
+        </div>
+        <!-- ------menu btn only display on mobile -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-white text-2xl">
+            <i class='bx bx-menu'></i>
+          </button>
+        </div>
+        <!-- ----- mobile menu-- -->
+        <div id="mobile-menu" class="hidden md:hidden">
+          <a href="#home" class="text-primary hover:text-gray-300 block py-2 hover:bg-gray-700">Home</a>
+          <a href="#projects"  class="text-white hover:text-gray-300 block py-2 hover:bg-gray-700">Projects</a>
+          <a href="#resume"  class="text-white hover:text-gray-300 block py-2 hover:bg-gray-700">Resume</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+       <!-- --- banner section--- -->
+       <section class="max-w-7xl mx-auto px-5 my-12 " id="home">
+        <div class="py-10 text-white flex flex-col md:flex-row justify-between items-center gap-4">
+          <div class="md:w-1/2">
+          <p class="text-xl font-inter font-medium mb-4" >Hello,<span class="text-primary">I'm</span></p>
+          <h1 class="text-4xl font-bold tracking-[3.22px] mb-5 font-inter">Marie Diane <span class="text-primary">Iradukunda</span></h1>
+          <p class="text-2xl font-monstserrat mb-5">Front-End Developer & ET engineer.</p>
+          <p class="text-xl mb-10 md:w-3/4 text-justify leading-7">I am a results-oriented woman specializing in high-level problem solving with the knowledge and resilience
+            to draft sustainable solutions in front-end ,Electronics and Telecommunication in order to save the environment. </p>
+            <button class="py-4 px-4 rounded-md bg-primary text-white font-bold hover:bg-sky-300">Let's Talk</button>
+            <!-- ----social button--- -->
+            <div class="mt-12 mb-8 flex gap-4 items-center">
+              <p>Check out My:</p>
+              <div class="flex space-x-3">
+                <a href="#"><img src="../phots/behance.svg" class="w-8 h-8"></a>
+                <a href="#"><img src="../phots/instagram.svg" class="w-8 h-8"></a>
+                <a href="#"><img src="../phots/linkedIn.svg" class="w-8 h-8"></a>
+                <a href="#"><img src="../phots/twitter.svg" class="w-8 h-8"></a>
+                </div>
+              </div>
+            </div>
+            <!-- -----right side--- -->
+            <div class="md:w-1/2 order-first md:order-none">
+              <img src="../phots/diane-removebg-preview (1).png" class="w-full md:ml-20">
+            </div>
+        </div>
+       </section>
+       <!-- -----service----- -->
+       <section class="max-w-7xl mx-auto px-7 my-6 text-white" id="project">
+        <div class="text-center">
+        <p class="font-monstserrat  text-xlmb-3 font-medium">My Service</p>
+        <h3 class="text-primary text-3xl font-bold font-inter">What I Do</h3>
+        </div>
+       <!-- -----service cards------- -->
+       <div class="my-16 flex flex-col md:flex-row justify-around items-center gap-12">
+        <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl ">
+        <img src="../phots/net.svg"class="w-[196px] mb-12 max-auto">
+        <h5 class="text-center my-5 text-xl text-primary">Network provider</h5>
+        <p class="text-justify">As a frontend designer, I specialize in crafting engaging and user-friendly interfaces that seamlessly blend aesthetics with functionality.</p>
+        </div>
+        <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+          <img src="../phots/font.svg"class="w-[196px] mb-12 max-auto">
+          <h5 class="text-center my-5 text-xl text-primary">web designer</h5>
+          <p class="text-justify">As a frontend designer, I specialize in crafting engaging user-friendly interfaces that seamlessly blend aesthetics with functionality.</p>
+          </div>
+          <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+            <img src="../phots/graphic-design.svg"class="w-[196px] mb-12 max-auto">
+            <h5 class="text-center my-5 text-xl text-primary">web designer</h5>
+            <p class="text-justify">As a frontend designer, I specialize in crafting engaging and user-friendly interfaces that seamlessly blend aesthetics with functionality.</p>
+            </div> 
+       </div>
+      </section>
+      <!-- projects -->
+    <section class="px-5 my-32 mx-auto max-w-7xl" id="projects">
+      <div class="text-center text-white">
+        <h3 class="text-3xl font-bold mb-5">
+          Recent <span class="text-primary">Projects</span>
+        </h3>
+        <p class="mb-6 md:w-3/4 mx-auto">
+          I bring a passion for creating user-friendly experiences and a drive
+          design trends and technologies to deliver top-notch designs that meet
+          needs and exceed their expectations
+        </p>
+      </div>
+      <div class="flex md:flex-row flex-col items-center justify-between gap-8 my-20"
+      >
+        <div class="border border-primary shadow-xl shadow-[#5dadec3b] md:w-[741px] md:h-96 mx-auto rounded-2xl p-5 md:p-0"
+        >
+          <img src="../phots/project-1.svg" alt="" class="p-5 w-full" />
+        </div>
+        <div
+          class="border border-primary shadow-xl shadow-[#5dadec3b] md:w-[741px] md:h-96 mx-auto rounded-2xl p-5"
+        >
+          <img src="../phots/Screenshot_2024-03-19_145322-removebg-preview.png" alt="" class="w-full p-5 h-96" />
+        </div>
+      </div>
+    </section>
+    <!-- reviews  -->
+    <section class="my-16 max-w-7xl mx-auto px-5" id="resume">
+      <div class="text-center">
+        <p class="mb-3 font-montserrat font-medium text-white">Testimonials</p>
+        <h3 class="text-primary text-3xl font-bold mb-16">
+          What Our Customers Say
+        </h3>
+      </div>
+
+      <!-- testimonial section -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide py-8 px-3 text-white">
+            <img src="../phots/review2.svg" alt="" />
+            <p class="text-sm px-2 my-5 text-justify">
+              I recently worked with Saira on a project and was extremely
+              impressed with their creativity and attention to detail. She
+              listened to my ideas and provided valuable input, which helped to
+              create a UI that was both aesthetically pleasing and easy to use.
+            </p>
+            <h5 class="text-primary mb-2">Tom Cook</h5>
+            <p class="text-sm px-2">Executive Engineer</p>
+          </div>
+          <div class="swiper-slide py-8 px-3 text-white">
+            <img src="../phots/review1.svg" alt="" />
+            <p class="text-sm px-2 my-5 text-justify">
+              I recently worked with Saira on a project and was extremely
+              impressed with their creativity and attention to detail. She
+              listened to my ideas and provided valuable input, which helped to
+              create a UI that was both aesthetically pleasing and easy to use.
+            </p>
+            <h5 class="text-primary mb-2">Rick Wright</h5>
+            <p class="text-sm px-2">Executive Engineer</p>
+          </div>
+          <div class="swiper-slide py-8 px-3 text-white">
+            <img src="../phots/review3.svg" alt="" />
+            <p class="text-sm px-2 my-5 text-justify">
+              I recently worked with Saira on a project and was extremely
+              impressed with their creativity and attention to detail. She
+              listened to my ideas and provided valuable input, which helped to
+              create a UI that was both aesthetically pleasing and easy to use.
+            </p>
+            <h5 class="text-primary mb-2">Alega Wind</h5>
+            <p class="text-sm px-2">Software Engineer</p>
+          </div>
+          <div class="swiper-slide py-8 px-3 text-white">
+            <img src="../phots/review1.svg" alt="" />
+            <p class="text-sm px-2 my-5 text-justify">
+              I recently worked with Saira on a project and was extremely
+              impressed with their creativity and attention to detail. She
+              listened to my ideas and provided valuable input, which helped to
+              create a UI that was both aesthetically pleasing and easy to use.
+            </p>
+            <h5 class="text-primary mb-2">Rick Wright</h5>
+            <p class="text-sm px-2">Digital Marketer</p>
+          </div>
+          <div class="swiper-slide py-8 px-3 text-white">
+            <img src="../phots/review2.svg" alt="" />
+            <p class="text-sm px-2 my-5 text-justify">
+              I recently worked with Saira on a project and was extremely
+              impressed with their creativity and attention to detail. She
+              listened to my ideas and provided valuable input, which helped to
+              create a UI that was both aesthetically pleasing and easy to use.
+            </p>
+            <h5 class="text-primary mb-2">Mark J.</h5>
+            <p class="text-sm px-2">Software Developer</p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <footer class="max-w-7xl mx-auto px-5 my-16">
+      <h4 class="text-2xl text-white pt-12 mb-12">Portfolio</h4>
+      <div class="text-white md:ml-16 flex flex-col md:flex-row justify-between md:items-center gap-6">
+        <div class="md:w-1/3 md:pl-10">
+          <h5 class="mb-3">Company</h5>
+          <a href="#" class="block my-2 text-sm text-slate-300">About Us</a>
+          <a href="#" class="block my-2 text-sm text-slate-300">Why Choose me</a>
+          <a href="#" class="block my-2 text-sm text-slate-300">Pricing</a>
+          <a href="#" class="block my-2 text-sm text-slate-300">Testimonial</a>
+        </div>
+
+        <div class="md:w-1/3">
+          <h5 class="mb-3">Resources</h5>
+          <a href="#" class="block my-2 text-sm text-slate-300">Privacy Policy</a>
+          <a href="#" class="block my-2 text-sm text-slate-300">Terms and Condition</a>
+          <a href="#" class="block my-2 text-sm text-slate-300">Blog</a>
+          <a href="#" class="block my-2 text-sm text-slate-300">Contact Us</a>
+        </div>
+
+        <div class="md:w-1/3">
+          <h5 class="mb-5">Subscribe to our Newsletter</h5>
+          <div class="relative">
+            <input type="email" name="email" id="email" placeholder="Enter your Email" class="bg-[#2B2E3C] py-5 pl-5 rounded-lg"> 
+            <input type="submit" value="Subscribe" class="bg-primary py-4 px-8 rounded-lg absolute left-44 top-1">
+          </div>
+        </div>
+
+      </div>
+  </footer>
+
+   <!-- ------script tag -->
+   <script src="../src/app.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="../src/review.js "></script>
+</body>
+</html>
