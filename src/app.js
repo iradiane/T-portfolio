@@ -42,4 +42,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
       });
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('toggleButton');
+    const myTextarea = document.getElementById('myTextarea');
+
+    toggleButton.addEventListener('click', function() {
+        // Focus on the textarea when the button is clicked
+        myTextarea.style.display = 'block';
+        myTextarea.focus();
+    });
+});
+
   
